@@ -4,13 +4,13 @@ class Product {
     protected $name;
     protected $price;
     protected $type;
-    protected $quantità;
+    protected $quantita;
 
-    function __construct($_name, $_type, $_price, $_quantità){
+    function __construct($_name, $_type, $_price, $_quantita){
         $this->name = $_name;
         $this->type = $_type;
         $this->price = $_price;
-        $this->quantità = $_quantità;
+        $this->quantita = $_quantita;
     }
 
     public function getName(){
@@ -25,8 +25,8 @@ class Product {
         return $this->price;
     }
 
-    public function getquantità(){
-        return $this->quantità;
+    public function getquantita(){
+        return $this->quantita;
     }
 
 }
